@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 800px;
+	font-family: Helvetica; sans-serif;
+
+}
+
+h1 {
+	width: 800px;
+	text-align: center;
+	font-family: helvetica; 
+	font-weight: lighter;
+	color: #D93E78;
+	padding-left: 24px;
+	font-size: 24px
+	padding-bottom: 0px;
+
+
+}
+
+#slogan {
+	width: 800px;
+	font-family: helvetica; 
+	font-weight: lighter;
+	color: #3E66C4;
+	font-size: 36px;
+	padding-bottom: 0px;
+	text-align: center;	
+}
+
+p {
+	width: 800px;
+	text-align: left;
+	color: #787272;
+	padding-left: 24px;
+
+}
+nav {
+	width: 800px;
+	text-align: left; padding-left: 18px;
+	font-family: helvetica;
+	font-weight: lighter;
+	font-size: 32px;
+	color: #787272;
+	align-items: center;
+	text-decoration: none;
+}
+
+
+	
+link {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+
+
+
+ul {
+	width: 800px;
+	text-align: left;
+	color: #787272;
+	text-indent: 24px;
+
+}
+
+li {
+		text-indent: 16px;
+
+}
+
+img {
+
+}
+
+
+
+
+
+
