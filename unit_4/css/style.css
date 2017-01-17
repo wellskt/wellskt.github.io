@@ -114,6 +114,7 @@ p {
 a {
 	color: #241F1F;
 	text-decoration: none;
+
 }
 
 
@@ -140,8 +141,12 @@ footer {
 	text-decoration: none;
 }
 
-.footer-link{
-	color: #241F1F;
+
+.footer-link {
+	text-decoration:none;
+	color:#917c7c;
+	border-bottom: 1px solid #917c7c;
+	padding-bottom:2px;
 
 }
 
