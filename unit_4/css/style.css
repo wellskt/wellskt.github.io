@@ -1,0 +1,168 @@
+/* @import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+*/
+
+
+/* Orange in logo is #f57f15
+	Pink in Logo is #f7acad
+	Fonts are gray: #917c7c
+
+	font-family: 'Cherry Swash', cursive;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lobster-Two';
+*/
+
+* {
+
+}
+
+header {
+	background-color: #fff;
+
+	text-align: left;
+	font-family: 'Lobster Two', cursive;
+}
+
+
+
+
+
+nav{
+	margin:	10px;
+	padding-top: 24px;
+	align-items: left;
+	align-content: left;
+
+
+}
+
+.navlinks {
+	font-family: 'Lobster Two', cursive;
+	color: #f57f15;
+	font-style: normal;
+	font-size: 24px;
+	text-decoration: none;
+	border-width: 2px;
+	font-weight: 200;
+	letter-spacing: 2px;
+	padding: 50px;
+	
+}
+
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #917c7c;
+	line-height: 1.3;
+	width: 1000px;
+	padding: 24px;
+	margin-left: 10px;
+}
+
+
+#slogan {
+	width: 800px;
+	font-family: 'Lobster Two', cursive;
+	color: #3E66C4;
+	font-size: 36px;
+	text-align: center;	
+}
+
+
+h1 {
+	width: 800px;
+	text-align: center;
+	font-family: 'Pinyon+Script', cursive;
+	color: #f57f15;
+	padding-left: 24px;
+	font-size: 2em
+	padding-bottom: 0px;
+}
+
+
+h2 {
+
+	text-align: left;
+	font-weight: 10; 
+	color: #917c7c;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 12px;
+	text-align: center;
+	font-family: 'Cherry Swash', cursive;
+	
+}
+
+h3, h4, h5 {
+	margin: 10px 0;
+	margin-bottom: 10px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.5em;
+}
+
+section {
+	align-content: center;
+}
+
+p {
+	width: 600px;
+
+}
+
+a {
+	color: #241F1F;
+	text-decoration: none;
+}
+
+
+
+
+img {
+	width: auto;
+}
+
+main {
+	padding: 10px;
+}
+
+ul, ol {
+	margin-left: 24px;
+}
+
+footer {
+	background-color: #f7acad;
+	color: #3F4040;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.footer-link{
+	color: #241F1F;
+
+}
+
+.footer-copy{
+	font-size: .85em; 
+	background-color: #f7acad;
+	color: #3F4040;
+	padding: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.75;
+}
+
+
+
+aside {
+	float: right;
+	width: 300px;
+}
+
+
+
