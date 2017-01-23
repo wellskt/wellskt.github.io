@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Unit 3: My Business Project for SBL</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!--<link href="https://fonts.googleapis.com/css?family=Cherry+Swash">	
+		<link href="https://fonts.googleapis.com/css?family=Lato">
+		<link href="https://fonts.googleapis.com/css?family=Lobster+Two">
+		<link href="https://fonts.googleapis.com/css?family=Pinyon+Script"> -->
+
+		<!-- Orange in logo is #f57f15
+	Pink in Logo is #f7acad
+	Fonts are gray: #917c7c
+
+	font-family: 'Cherry Swash', cursive;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lobster-Two';
+	-->
+
+
+	<!-- <img src="images/front-page1.jpg" alt="Soon Beauty Lab large logo" title="Soon Beauty Lab Large Logo"> -->
+
+
+	</head>
+
+
+	
+
+	<body>
+		<div class="wrapper">
+		
+		<header></header> 
+        
+        <nav class="clearfix">		
+			<img class="nav-bg-img" src="images/header-background-wood-grain.png">
+			<a class="navimg" href="index.html"><img src="images/soon-small-logo.png" alt="Soon Beauty LabSmall Logo" title="Soon Beauty Lab Small Logo"></a>
+			<a class="navlinks" href="#">Stylists</a>
+			<a class="navlinks" href="#">Locations</a>
+				
+			<a class="navlinks" href="#">Services</a>
+			<a class="navlinks" href="#">Book Online</a> 
+		</nav>
+	
+			
+
+	
+		<section id="about-slideshow">
+		<aside>
+
+		<div class="w3-content w3-section" style="max-width:500px">
+	 		<img class="mySlides w3-animate-fading" src="images/blonde-updo.jpg" style="width:100%">
+	  		<img class="mySlides w3-animate-fading" src="images/blonde-windblown.jpg" style="width:100%">
+	  		<img class="mySlides w3-animate-fading" src="images/brown-wavy.jpg" style="width:100%">
+	  		<img class="mySlides w3-animate-fading" src="images/red-curly-mess.jpg" style="width:100%">
+	  		<img class="mySlides w3-animate-fading" src="images/red-long-windblown.jpg" style="width:100%">
+	  		<img class="mySlides w3-animate-fading" src="images/red-medium-bob.jpg" style="width:100%">
+		</div>
+
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+		 	   var i;
+		 	   var x = document.getElementsByClassName("mySlides");
+		 	   for (i = 0; i < x.length; i++) {
+		 	      x[i].style.display = "none";  
+		 	   }
+		 	   myIndex++;
+		 	   if (myIndex > x.length) {myIndex = 1}    
+		 	   x[myIndex-1].style.display = "block";  
+		 	   setTimeout(carousel, 9000);    
+			}
+		</script>	
+	
+		</aside>
+
+
+
+
+		<main>	
+
+
+	<!--	<h1>Insert Graphic or Photo Gallery Here</h1>   -->
+
+
+		<h4>About Us</h4>	
+			
+			<p>Soon Beauty Lab offers three locations, where creativity and artistic expression are coupled with precision haircutting.</p>	
+			
+			<p>Our stylists are experts at listening. We synthesize your concerns with our own creativity and technical skill to produce great results.</p>
+			
+			<p>
+			What you won’t find is the usual intimidation, boorish pretense and impersonality. The staff at Soon invite you to visit at one of their three friendly neighborhood salons. </p>		
+
+		</section>
+		</main>	
+
+	<hr>
+
+
+	<section id="bookonline"> 
+	<h2>Book Online</h2>
+
+	<table id="addresses">
+		<tr>
+			<td>
+		
+				<a href="book-manhattan-west">Manhattan West</a>
+				<address>54 West 22nd Street
+				<br>between 5th &amp; 6th Aves.
+				<br>New York, NY 10010
+				<br>Tel: (212) 243-0245
+				</address> 
+		
+			</td>
+
+			<td>		
+				<a href="book-carroll-gardens">Carroll Gardens</a>		
+				<address>290 Smith Street<br> between Union &amp; Sackett. 
+				<br>Brooklyn, NY 11231
+				<br>Tel: (718) 624-2424
+				</address>		
+			</td>
+
+		
+			<td>
+				<a href="book-fort-greene">Fort Greene</a>
+				<address>708 Fulton Street<br> 
+				between X &amp; Y.  
+				<br>Brooklyn, NY 11217
+				<br>Tel: (718) 643-4343
+				</address>
+			</td>	
+
+		</tr>
+	</table>
+
+	
+	</section>
+
+
+
+	<footer>
+
+		Contact Us: <a href="mailto:enquiries@soonbeautylab.com" class="footer-link">enquiries@soonbeautylab.com</a> 
+
+<!-- MOVE UP TO  BOOK ONLINE 
+			<div class="footer-copy"> 
+				Manhattan West: 54 West 22nd Street between 5th &amp; 6th Aves.
+				New York, NY 10010
+				Tel: (212) 243-0245<br>
+				
+				Carroll Gardens 
+				290 Smith Street between Union &amp; Sackett. 
+				Brooklyn, NY 11231
+				Tel: (718) 624-2424<br>
+				
+				Fort Greene
+				708 Fulton Street between X &amp; Y.  
+				Brooklyn, NY 11217
+				Tel: (718) 643-4343 
+				</div>-->
+
+		
+
+			<br>
+		<img class="nav-bg-img-bottom" src="images/header-background-wood-grain.png">
+	
+		</footer>
+	</div>
+</body>
+</html>

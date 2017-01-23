@@ -1,0 +1,247 @@
+	@import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
+	@import url('https://fonts.googleapis.com/css?family=Lato');
+	@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+	@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+
+
+/* Orange in logo is #f57f15
+	Pink in Logo is #f7acad
+	Fonts are gray: #917c7c
+
+	font-family: 'Cherry Swash', cursive;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lobster-Two';
+*/
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+
+nav { 
+	margin:	0px;
+	padding: 0px;
+	height: 160px;
+	width: 1080px;
+
+	background-color: #E8C66A;
+}
+
+
+nav a {
+	background-color: #fff;
+	color: #ccc;
+	display: block;
+	width: 216px;
+	float: left;
+}
+
+
+.navlinks {
+	font-family: 'Lobster Two', cursive;
+	color: #917c7c;
+	font-style: normal;
+	font-size: 24px;
+	text-decoration: none;
+	height: 160px;
+	padding: 100px 25px 10px 25px;
+
+	
+}
+
+.navimg {
+	padding: 23px 25px 0px 25px;
+ 
+}
+
+.nav-bg-img {
+	width: 1080px;
+
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility; hidden;
+}
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #917c7c;
+	line-height: 1.3;
+	margin: 14px 24px 0px 0px;
+	height: auto;
+	background-color: #fff;
+}
+
+#about-slideshow {
+	height: 425px;
+
+}
+
+aside {
+	width: 450px;
+	float:right;
+	vertical-align: top;
+	padding: 24px 0px 0px 0px;
+	background-color: #FFC675;
+}
+
+
+
+h1 {
+	width: 800px;
+	text-align: center;
+	color: #917c7c;
+	padding-left: 24px;
+	font-size: 2em
+	padding-bottom: 0px;
+}
+
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	color: #917c7c;
+	padding: 12px;
+	text-align: center;
+
+}
+
+h3, h4, h5 {
+	margin: 10px 0;
+	margin-bottom: 2px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.5em;
+	padding-top: 48px;
+}
+
+
+
+p {
+	width: 500px;
+	padding: 24px 24px 10px 0px;
+}
+
+a {
+	color: #241F1F;
+	text-decoration: none;
+}
+
+
+
+img {
+	width: auto;
+}
+
+main {
+	padding: 10px;
+	width: 1080px;
+}
+
+ul, ol {
+	margin-left: 24px;
+}
+
+
+td {
+	columns: 360px;
+}
+
+#bookonline 	{
+	font-size: 1.25em;
+	height: 250px;
+	width: 1080px;
+	background-color: #FFC675;
+
+
+}
+
+#bookonline a {
+	width: 1080px;
+	color: red;
+	padding: 0px 90px 0px 90px;
+}
+
+.location {
+	font-family: "Lato", sans-serif;
+	font-size: .85em;
+	font-style: normal;
+	color: #917c7c;
+	text-decoration: none;
+	text-transform: none;
+	text-align: center;	
+	background-color: #FFE2B8;
+}
+
+
+#addresses {
+
+
+}
+
+
+address {
+
+	font-size: .65em;
+	font-style: normal;
+	color: #917c7c;
+	text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+	padding-top: 50px;
+	background-color: #FF957E;
+	color: #3F4040;
+	text-align: center;
+	text-decoration: none;
+	height: 200px;
+}
+
+
+.footer-link {
+	text-decoration:none;
+	color:#917c7c;
+	border-bottom: 1px solid #917c7c;
+}
+
+.footer-copy{
+	font-size: .85em; 
+	background-color: #fff;
+	color: #3F4040;
+	line-height: 1.75;
+	padding: 20px 0px 10px 0px;
+}
+
+.nav-bg-img-bottom {
+	width: 1080px;
+	height: 100px;
+	align-content: center;
+	padding-top: 25px;
+
+}
