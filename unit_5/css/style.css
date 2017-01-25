@@ -21,6 +21,7 @@
 .wrapper {
 	width: 1080px;
 	margin: 0 auto;
+	background-color: #FFE2B8;
 }
 
 header {
@@ -42,7 +43,7 @@ nav {
 
 
 nav a {
-	background-color: #fff;
+	background-color: ##E8C66A;
 	color: #ccc;
 	display: block;
 	width: 216px;
@@ -104,6 +105,10 @@ aside {
 	vertical-align: top;
 	padding: 24px 0px 0px 0px;
 	background-color: #FFC675;
+}
+
+article {
+	background-color: #E89C6C;
 }
 
 
