@@ -8,6 +8,11 @@
 	Pink in Logo is #f7acad
 	Fonts are gray: #917c7c
 
+	3 more colors: 
+	DARK GREY:  #4A413C;
+	BROWN: #80544A;
+	LILAC: #866789;
+
 	font-family: 'Cherry Swash', cursive;
 	font-family: 'Lato', sans-serif;
 	font-family: 'Lobster-Two';
@@ -19,13 +24,14 @@
 }
 
 .wrapper {
-	width: 1080px;
 	margin: 0 auto;
+	width: 1080px;
 }
 
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
+	height: 100px;
 }
 
 
@@ -68,14 +74,15 @@ nav a {
 
 }
 
-.clearfix:after {
-	display: block;
-	content: " ";
-	clear: both;
 
-	height: 0;
-	font-size: 0;
-	visibility; hidden;
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 
@@ -89,20 +96,50 @@ body {
 	background-color: #fff;
 }
 
-#about-slideshow {
-	height: 425px;
+
+
+#two_column {
+	width: 1080px;
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
 
 }
 
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    height: 400px;
+
+}
+
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 40px 20px 20px 20px;
+    float: right;   
+    width: 50%;
+    height: 400px;
+}
+
+
 aside {
-	width: 450px;
+
 	float:right;
+	align-content: left;
 	vertical-align: top;
 	padding: 24px 0px 0px 0px;
 
 }
 
 article {
+		width: 600px;
+		float: right;
+		align-content: left;
 
 }
 
@@ -119,7 +156,7 @@ h1 {
 
 
 h2 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lobster-Two', sans-serif;
 	font-size: 2em;
 	color: #917c7c;
 	padding: 12px;
@@ -128,17 +165,18 @@ h2 {
 }
 
 h3, h4, h5 {
-	margin: 10px 0;
+
 	margin-bottom: 2px;
 	font-family: 'Lobster Two', cursive;
 	font-size: 1.5em;
-	padding-top: 48px;
+	padding-top: .5em;
+
 }
 
 
 
 p {
-	width: 500px;
+	align-content: top;
 	padding: 24px 24px 10px 0px;
 }
 
@@ -153,10 +191,7 @@ img {
 	width: auto;
 }
 
-main {
-	padding: 10px;
-	width: 1080px;
-}
+
 
 ul, ol {
 	margin-left: 24px;
@@ -168,39 +203,62 @@ td {
 }
 
 
-#container {
-	width: 1080px;
-	height: 200px;
-	margin: 0 auto;
-	background-color: #fff;
+
+#bookonline {
+	border: 1px black solid;
+	background-color: #FFED74;
+	font-size: 1.15em;
+	color: #fff222;
+
+
 }
 
-#locations {
-	width: 340px;
-	padding: 10px;
-	margin: 0 10px;
+
+.column {
+	float: left;
+	width: 1080px;
+	height: 150px;
+	padding: 0px;
+	margin: 8px;
 	text-align: center;
+	align-content: center;
+
+
+}
+
+.column a {
+	font-family: "Lato", sans-serif;
+	font-size: 2em;
+	font-color: green;
+	align-content: center;
+	text-decoration-line: 2px solid black;
+
+}
+
+
+
+#column1 {
+	background-color: #FFB7CF;
+	width: 342px;
 	float: left;
 }
 
-#locations a {
-	font-family: 'Lato', sans-serif;
-	font-size: 2em;
-	color: #917c7c;
-	padding: 12px;
-	text-align: center;
+
+#column2 {
+	background-color: #E55B88;
+	width: 342px;
 }
 
-
-
-
-
+#column3 {
+	background-color: #E582A2;
+	width: 342px;
+}
+	
 
 
 
 address {
-
-	font-size: .65em;
+	font-size: .75em;
 	font-style: normal;
 	color: #917c7c;
 	text-align: center;
@@ -210,15 +268,11 @@ address {
 
 
 
-
-
 footer {
-	height: 200px;
-	padding-top: 50px;
+	background-color: #FFED74;
 	color: #3F4040;
 	text-align: center;
 	text-decoration: none;
-	height: 200px;
 }
 
 
@@ -238,7 +292,6 @@ footer {
 
 .nav-bg-img-bottom {
 	width: 1080px;
-	height: 100px;
 	align-content: center;
 	padding-top: 25px;
 

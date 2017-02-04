@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Unit 5: My Business Project for SBL</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="wrapper">
+		
+			<header>
+				<nav class="clearfix">		
+				<img class="nav-bg-img" src="images/header-background-wood-grain.png">
+				<a class="navimg" href="index.html"><img src="images/soon-small-logo.png" alt="Soon Beauty LabSmall Logo" title="Soon Beauty Lab Small Logo"></a>
+				<a class="navlinks" href="#">Stylists</a>
+				<a class="navlinks" href="#">Locations</a>
+				<a class="navlinks" href="#">Services</a>
+				<a class="navlinks" href="#">Book Online</a> 
+				</nav>
+			</header> 
+			
+	<main>	
+		<section id="two_column" class="clearfix">
+
+				<aside id="right">
+				<h4>Fab Hairstyles</h4>
+					<div>
+						<div class="w3-content w3-section" style="max-width:500px">
+		 				<img class="mySlides w3-animate-fading" src="images/blonde-updo.jpg" style="width:100%">
+	  					<img class="mySlides w3-animate-fading" src="images/blonde-windblown.jpg" style="width:100%">
+	  					<img class="mySlides w3-animate-fading" src="images/brown-wavy.jpg" style="width:100%">
+	  					<img class="mySlides w3-animate-fading" src="images/red-curly-mess.jpg" style="width:100%">
+	  					<img class="mySlides w3-animate-fading" src="images/red-long-windblown.jpg" style="width:100%">
+	  					<img class="mySlides w3-animate-fading" src="images/red-medium-bob.jpg" style="width:100%">
+						<script>
+							var myIndex = 0;
+							carousel();
+							function carousel() {
+					 	   	var i;
+					 	   	var x = document.getElementsByClassName("mySlides");
+				 		   	for (i = 0; i < x.length; i++) {
+				 	      	x[i].style.display = "none";  
+				 	   		}
+				 	   		myIndex++;
+				 		   if (myIndex > x.length) {myIndex = 1}    
+				 		   x[myIndex-1].style.display = "block";  
+				 		   setTimeout(carousel, 2000);    
+							}
+						</script>	
+					</div>
+				</aside>
+
+				<article id="left">
+
+					<h4>About Us</h4>	
+			
+					<p>Soon Beauty Lab offers three locations, where creativity and artistic expression are coupled with precision haircutting.</p>	
+			
+					<p>Our stylists are experts at listening. We synthesize your concerns with our own creativity and technical skill to produce great results.</p>
+			
+					<p>What you won’t find is the usual intimidation, boorish pretense and impersonality. The staff at Soon invite you to visit at one of their three friendly neighborhood salons. </p>	
+				</article>	
+		</section>
+
+
+		<section id="two_column" class="clearfix">
+			<h2>Book Online</h2>
+			<div id="loc_left">
+				<a href="book-manhattan-west">Manhattan West</a>
+				<address>54 West 22nd Street
+				<br>between 5th &amp; 6th Aves.
+				<br>New York, NY 10010
+				<br>Tel: (212) 243-0245
+				</address> 		
+			</div>
+
+			<div id="loc_center">	
+				<a href="book-carroll-gardens">Carroll Gardens</a>		
+				<address>290 Smith Street<br> between Union &amp; Sackett. 
+				<br>Brooklyn, NY 11231
+				<br>Tel: (718) 624-2424
+				</address>		
+			</div>
+		
+			<div id="right">	
+				<a href="book-fort-greene">Fort Greene</a>
+				<address>708 Fulton Street<br> 
+				between X &amp; Y.  
+				<br>Brooklyn, NY 11217
+				<br>Tel: (718) 643-4343
+				</address>
+			</div>	
+		</section>
+
+		<footer>
+					<p>Contact Us: <a href="mailto:enquiries@soonbeautylab.com" class="footer-link">enquiries@soonbeautylab.com</a> </p>
+					<img class="nav-bg-img-bottom" src="images/header-background-wood-grain.png">
+		</footer>
+		
+		</div>
+	</main>	
+	</body>
+</html>
