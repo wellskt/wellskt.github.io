@@ -1,0 +1,317 @@
+	@import url('https://fonts.googleapis.com/css?family=Cherry+Swash');
+	@import url('https://fonts.googleapis.com/css?family=Lato');
+	@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+	@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+
+
+/* Orange in logo is #f57f15
+	Pink in Logo is #f7acad
+	Fonts are gray: #917c7c
+
+
+	3 more colors: 
+	DARK GREY:  #594E48;
+	BROWN: #80544A;
+	LILAC: #866789;
+
+	font-family: 'Cherry Swash', cursive;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lobster-Two';
+	font-family: 'Fjalla One', sans-serif;
+*/
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	color: #594E48
+}
+
+header {
+	background-color: #fff;
+	height: 100px;
+}
+
+
+nav { 
+	margin:	0px;
+	padding: 0px;
+	height: 160px;
+	width: 1080px;
+}
+
+
+nav a {
+	color: blue;
+	display: block;
+	width: 216px;
+	float: left;
+}
+
+
+.navlinks {
+	font-family: 'Lobster Two', cursive;
+	color: #80544A;
+	font-style: normal;
+	font-size: 24px;
+	text-decoration: none;
+	height: 160px;
+	padding: 100px 25px 10px 25px;
+}
+
+.navimg {
+	padding: 23px 25px 0px 25px;
+ }
+
+.nav-bg-img {
+	position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 30px;
+
+
+}
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+body {
+	width: 1080px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #917c7c;
+	line-height: 1.3;
+	margin: 14px 24px 0px 0px;
+	height: auto;
+	background-color: #fff;
+}
+
+
+
+#two_column {
+	width: 100%;
+	background-color: #fff;
+	padding: 20px;
+
+}
+
+#left {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    height: 400px;
+
+}
+
+
+#right {
+    background-color: #fff;
+    padding: 40px 20px 20px 20px;
+    float: right;   
+    width: 50%;
+    height: 400px;
+}
+
+
+aside {
+	float:right;
+	align-content: left;
+	vertical-align: top;
+	padding: 24px 0px 0px 0px;
+	width: 50%;
+	border-radius: .8em;
+
+}
+
+.w3-content w3-section {
+	max-width: 500px;
+	border-radius: .8em;
+
+}
+
+article {
+	width: 100%;
+	float: right;
+	align-content: left;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Fjalla One', sans-serif;
+	color: #866789;
+
+}
+
+h1 {
+	width: 800px;
+	text-align: center;
+	padding-left: 24px;
+	font-size: 2em
+	padding-bottom: 0px;
+}
+
+
+h2 {
+	font-size: 2em;
+	padding-top: 12px;
+}
+
+h3 {
+	margin-bottom: 2px;
+	font-size: 2em;
+	padding: .5em 0px 20px 0px;
+	text-align: center;
+}
+
+h4, h5 {
+	margin-bottom: 2px;
+	font-size: 1.5em;
+	padding-top: .5em;
+}
+
+
+
+p {
+	align-content: top;
+	padding: 12px 10px 10px 0px;
+	line-height: 1.75em;
+}
+
+a {
+	color: #80544A;
+	text-decoration: none;
+}
+
+
+
+img {
+	width: auto;
+}
+
+
+
+ul, ol {
+	margin-left: 24px;
+}
+
+
+td {
+	columns: 360px;
+}
+
+
+
+#bookonline {
+	background-color: #fff;
+	font-size: 1.15em;
+	color: #fff222;
+
+
+
+}
+
+
+.column {
+	float: left;
+	width: 1080px;
+	height: 150px;
+	padding: 0px;
+	margin: 8px;
+	text-align: center;
+	align-content: center;
+
+
+
+}
+
+.column a {
+	font-family: "Lato", sans-serif;
+	font-size: 1.35em;
+	color: #F57F16;
+	align-content: center;
+	border: 0px solid;
+	border-color: #866789;
+	border-radius: .8em;
+
+	background-color: #F7ACAD;
+	padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+
+
+#column1 {
+	background-color: #fff;
+	width: 342px;
+	float: left;
+
+}
+
+
+#column2 {
+	background-color: #fff;
+	width: 342px;
+}
+
+#column3 {
+	background-color: #fff;
+	width: 342px;
+}
+	
+
+
+
+address {
+	font-size: .75em;
+	font-style: normal;
+	color: #866789;
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+
+
+
+footer {
+	color: #3F4040;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.footer-link {
+	text-decoration:none;
+	color:#917c7c;
+
+}
+
+.footer-copy{
+	font-size: .85em; 
+	color: #3F4040;
+	line-height: 1.75;
+	padding: 20px 0px 10px 0px;
+}
+
+.nav-bg-img-bottom {
+	width: 1080px;
+
+	padding-top: 25px;
+
+	
+
+}
